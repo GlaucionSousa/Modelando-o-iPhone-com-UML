@@ -11,7 +11,7 @@ ReprodutorMusical reprodutor = new ReprodutorMusical();
 reprodutor.tocar();
 reprodutor.selecionarMusica("Bohemian Rhapsody");
 reprodutor.pausar();
-
+```
 ###Aparelho Telefônico
 A classe `AparelhoTelefonico` possui os seguintes métodos:
 
@@ -24,7 +24,7 @@ AparelhoTelefonico telefone = new AparelhoTelefonico();
 telefone.ligar("+55 123456789");
 telefone.atender();
 telefone.iniciarCorreioVoz();
-
+```
 ###Navegador na Internet
 A classe `NavegadorInternet` possui os seguintes métodos:
 
@@ -37,9 +37,9 @@ NavegadorInternet navegador = new NavegadorInternet();
 navegador.exibirPagina("https://www.example.com");
 navegador.adicionarNovaAba();
 navegador.atualizarPagina();
-
+```
 ###UML
-```mermaid
+mermaid
 classDiagram
     class ReprodutorMusical {
         +tocar()
