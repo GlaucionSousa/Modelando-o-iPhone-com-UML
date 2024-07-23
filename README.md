@@ -41,7 +41,7 @@ navegador.adicionarNovaAba();
 navegador.atualizarPagina();
 ```
 ### UML
-mermaid
+```mermaid
 classDiagram
     class ReprodutorMusical {
         +tocar()
@@ -63,3 +63,4 @@ classDiagram
 
     ReprodutorMusical --|> AparelhoTelefonico
     ReprodutorMusical --|> NavegadorInternet
+```
