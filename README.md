@@ -12,7 +12,8 @@ reprodutor.tocar();
 reprodutor.selecionarMusica("Bohemian Rhapsody");
 reprodutor.pausar();
 ```
-###Aparelho Telefônico
+
+### Aparelho Telefônico
 A classe `AparelhoTelefonico` possui os seguintes métodos:
 
 - `ligar(String numero)`: Faz uma ligação para o número especificado.
@@ -25,7 +26,8 @@ telefone.ligar("+55 123456789");
 telefone.atender();
 telefone.iniciarCorreioVoz();
 ```
-###Navegador na Internet
+
+### Navegador na Internet
 A classe `NavegadorInternet` possui os seguintes métodos:
 
 - `exibirPagina(String url)`: Exibe uma página da web com a URL especificada.
@@ -38,7 +40,7 @@ navegador.exibirPagina("https://www.example.com");
 navegador.adicionarNovaAba();
 navegador.atualizarPagina();
 ```
-###UML
+### UML
 mermaid
 classDiagram
     class ReprodutorMusical {
